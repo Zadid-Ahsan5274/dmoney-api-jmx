@@ -19,6 +19,7 @@
 - open the jmx file in jmeter and run the test plan
 - for generating report hit following command
 ```jmeter -n -t [jmx file name] -l [generated csv file name] -e -o Reports```
+*[Make sure that the "Reports" folder is empty before running the command otherwise it will show error if the folder is not blank]*
 
 ## Prerequisites
 - Java LTS version(8 or 11)
